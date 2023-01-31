@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import UiKit from './ui-kit';
+import ProgressBar from './progress-bar';
 
-describe('UiKit', () => {
+describe('ProgressBar', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<UiKit />);
+    const { baseElement } = render(<ProgressBar />);
     expect(baseElement).toBeTruthy();
   });
 });

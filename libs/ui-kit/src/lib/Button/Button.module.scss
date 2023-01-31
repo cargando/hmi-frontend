@@ -1,0 +1,30 @@
+.button {
+  height: 44px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  padding: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &Red {
+    background: #fc490c;
+    color: #ffffff;
+  }
+  &Black {
+    background: #27292b;
+    color: #ffffff;
+  }
+  &Gray {
+    background: #f1f1f1;
+    color: #0a161b;
+  }
+  &Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
